@@ -11,7 +11,7 @@ export const Login = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("https://foodify-tc3z.onrender.com/api/loginuser", {
+    const response = await fetch("https://foodify-backend-qhik.onrender.com/api/loginuser", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

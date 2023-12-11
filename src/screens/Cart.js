@@ -21,7 +21,7 @@ export default function Cart() {
   const handleCheckOut = async () => {
     let userEmail = localStorage.getItem("userEmail");
     // console.log(data,localStorage.getItem("userEmail"),new Date())
-    let response = await fetch("http://foodify-tc3z.onrender.com/api/orderData", {
+    let response = await fetch("https://foodify-backend-qhik.onrender.com/api/orderData", {
       // credentials: 'include',
       // Origin:"http://localhost:3000/login",
       method: "POST",

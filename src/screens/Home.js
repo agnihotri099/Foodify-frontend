@@ -9,7 +9,7 @@ export const Home = () => {
   const [foodItem, setFoodItem] = useState([]);
 
   const loadData = async () => {
-    let response = await fetch("https://foodify-tc3z.onrender.com/api/foodData", {
+    let response = await fetch("https://foodify-backend-qhik.onrender.com/api/foodData", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
