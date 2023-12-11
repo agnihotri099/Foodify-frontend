@@ -50,6 +50,8 @@ MONGO_URL="mongodb://localhost:27017/"
 ![image](https://github.com/agnihotri099/Foodify-frontend/assets/85986348/12c37eb1-25f3-4225-82c9-65166805c4b3)
 ![image](https://github.com/agnihotri099/Foodify-frontend/assets/85986348/859e7194-325e-401e-b7bd-8019381be516)
 ![image](https://github.com/agnihotri099/Foodify-frontend/assets/85986348/34b3671e-e716-44fe-9c02-54c985f8e787)
+![image](https://github.com/agnihotri099/Foodify-frontend/assets/85986348/4ef0af05-52a7-48bb-9aa8-862b47c2f969)
+
 
 
 
