@@ -1,6 +1,7 @@
 # Foodify 
 Foodify is the ultimate app for food enthusiasts seeking a hassle-free and personalized dining experience. Sign up effortlessly, explore diverse cuisines through intuitive filters based on food categories or specific items, and enjoy the convenience of streamlined ordering. Your profile keeps track of favorites, order history, and offers personalized recommendations. Share your culinary insights with the community through ratings and reviews. With exclusive deals and discounts, Foodify is your passport to a world of delightful flavors. Download now and let every bite tell your unique story.
 
+Frontend : https://main--virtuofood.netlify.app/
 
 Backend : 
 https://foodify-backend-qhik.onrender.com/
