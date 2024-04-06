@@ -1,11 +1,8 @@
 import React from "react";
-// import Delete from '@material-ui/icons/Delete';
 import DeleteIcon from '@mui/icons-material/Delete';
 
 
-// import * as Mui from '@material-ui/core';
 import { useCart, useDispatchCart } from "../components/ContextReducer";
-// import trash from "../trash.svg";
 export default function Cart() {
   let data = useCart();
   let dispatch = useDispatchCart();
