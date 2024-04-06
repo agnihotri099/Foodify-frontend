@@ -8,8 +8,7 @@ const MyOrder = () => {
   const fetchMyOrder = async () => {
     console.log(localStorage.getItem("userEmail"));
     await fetch("https://foodify-backend-qhik.onrender.com/api/myOrderData", {
-      // credentials: 'include',
-      // Origin:"http://localhost:3000/login",
+      
       method: "POST",
       headers: {
         "Content-Type": "application/json",

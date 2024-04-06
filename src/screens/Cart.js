@@ -1,10 +1,8 @@
 import React from "react";
-// import Delete from '@material-ui/icons/Delete';
-import { Delete } from "@material-ui/icons";
+import DeleteIcon from '@mui/icons-material/Delete';
 
-// import * as Mui from '@material-ui/core';
+
 import { useCart, useDispatchCart } from "../components/ContextReducer";
-// import trash from "../trash.svg";
 export default function Cart() {
   let data = useCart();
   let dispatch = useDispatchCart();
@@ -65,7 +63,7 @@ export default function Cart() {
                 <td className="text-white">{food.price}</td>
                 <td>
                   <button type="button" className="btn p-0 bg-white">
-                    <Delete
+                    <DeleteIcon
                       onClick={() => {
                         dispatch({ type: "REMOVE", index: index });
                       }}
